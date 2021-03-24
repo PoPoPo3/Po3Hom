@@ -3,9 +3,9 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.page-light {
+.home {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   background: linear-gradient(180deg, #00A2FD 0%, rgba(255, 255, 255, 0) 16.15%), linear-gradient(180deg, rgba(255, 255, 255, 0.71) 75.52%, #B1E4DA 100%);
   position: absolute;
 }
@@ -113,7 +113,7 @@ body {
   width: 550px;
   height: 300px;
   left: 335px;
-  top: 520px;
+  top: 505px;
 }
 
 .block-ellipse3 h3 {
@@ -123,5 +123,16 @@ body {
   font-size: 25px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 17px 65px 0px 15px;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(180deg, rgba(12, 224, 186, 0.24) 5.21%, rgba(6, 206, 194, 0.5) 41.67%, rgba(181, 76, 231, 0.7) 78.74%);
+}
+
+.me .about {
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
